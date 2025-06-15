@@ -41,14 +41,12 @@ This is a simple file transfer application using TCP socket programming in C. It
    ./server
 
 2. **Start the client**
-Open another terminal and run:
+Open another terminal and run:  
 bash
-Kopyala
-Düzenle
 gcc client.c -o client
-./client
+./client  
 
-3. **Choose operation**
+4. **Choose operation**
 The client will prompt:
 
 bash

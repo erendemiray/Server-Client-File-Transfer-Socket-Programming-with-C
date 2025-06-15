@@ -31,12 +31,18 @@ Enter command (upload / download):
 Type upload to send client_file.txt to the server (saved as recv.txt)   
 Type download to receive server_file.txt from the server (saved as downloaded_from_server.txt)   
 
+---
+
+
 **Upload Demo**  
+
 ![Upload](Upload.png)  
 
 
 **Download Demo**  
+
 ![Download](Download.png)
 
 👨‍💻 Author  
 Eren Demiray  
+https://github.com/erendemiray

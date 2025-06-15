@@ -43,6 +43,7 @@ Type download to receive server_file.txt from the server (saved as downloaded_fr
 
 ![Download](Download.png)
 
-👨‍💻 Author  
+---
+**Author**  
 Eren Demiray  
 https://github.com/erendemiray

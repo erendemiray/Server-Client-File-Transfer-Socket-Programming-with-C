@@ -25,7 +25,7 @@ Open another terminal and run:
 gcc client.c -o client  
 ./client    
 
-4. **Choose operation**
+4. **Choose operation**  
 The client will prompt:  
 Enter command (upload / download):  
 Type upload to send client_file.txt to the server (saved as recv.txt)   

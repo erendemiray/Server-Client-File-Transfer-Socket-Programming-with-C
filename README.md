@@ -103,14 +103,13 @@ gcc client.c -o client
 
 ### Scenario: Client uploads a file to the server  
 
-1.Server chooses Mode 1 (Listening)  
+- **1.Server chooses Mode 1 (Listening)**  
 
-2.Client chooses Mode 2 (File Transfer)  
+- **2.Client chooses Mode 2 (File Transfer)**
+  
+- **3. Client types: Update**   
 
-3. Client types:  
-Command: upload  
-
-4.Server receives and saves it as received_from_client.txt  
+- **4.Server receives and saves it as received_from_client.txt**  
 
 ---
 ## 📌 Notes  

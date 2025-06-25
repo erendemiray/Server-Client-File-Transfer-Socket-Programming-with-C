@@ -97,6 +97,7 @@ gcc client.c -o client
  
 ### Run the client:  
 ./client  
+
 ---
 ## 🧪 Example Usage  
 
@@ -110,6 +111,7 @@ gcc client.c -o client
 Command: upload  
 
 4.Server receives and saves it as received_from_client.txt  
+
 ---
 ## 📌 Notes  
 
@@ -120,6 +122,12 @@ All file transfers are done using fread, fwrite, send, and recv
 Delays (sleep(1)) are added to avoid race conditions on initial message sending  
 
 bzero() clears buffers before/after transmission   
+
+---
+
+## 🖼️ Demo
+
+![Demo Screenshot](demo.png)
 
 ---
 ## 👨‍💻 Author  

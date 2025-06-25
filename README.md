@@ -97,9 +97,9 @@ gcc client.c -o client
  
 ### Run the client:  
 ./client  
-
-## 🧪 Example Usage  
 ---
+## 🧪 Example Usage  
+
 ### Scenario: Client uploads a file to the server  
 
 1.Server chooses Mode 1 (Listening)  
@@ -110,9 +110,9 @@ gcc client.c -o client
 Command: upload  
 
 4.Server receives and saves it as received_from_client.txt  
-
-## 📌 Notes  
 ---
+## 📌 Notes  
+
 Sockets are created using socket(AF_INET, SOCK_STREAM, 0)  
 
 All file transfers are done using fread, fwrite, send, and recv  
@@ -121,8 +121,8 @@ Delays (sleep(1)) are added to avoid race conditions on initial message sending
 
 bzero() clears buffers before/after transmission   
 
-
-👨‍💻 Author  
+---
+## 👨‍💻 Author  
 Mustafa Eren Demiray  
 
 Client-Server Socket Programming  

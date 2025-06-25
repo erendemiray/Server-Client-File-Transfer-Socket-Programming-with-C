@@ -27,10 +27,10 @@ There are two C files:
 
 When either side runs the application, it will first prompt the user to **select a mode**:  
 
-Select mode:
-1 - Listening Mode
-2 - File Transfer Mode
-Choice:  
+Select mode:  
+1 - Listening Mode  
+2 - File Transfer Mode  
+Choice:   
 
 - **Mode 1 (Listening Mode):**
   - Waits for the other side to initiate a command (`upload` or `download`)
@@ -83,41 +83,44 @@ No folders are created or required. The transferred files are always written to 
 
 ## ⚙️ Compilation & Execution
 
-### Compile the server:
-gcc server.c -o server
+### Compile the server:  
+gcc server.c -o server  
 
 
-##Compile the client:
+### Compile the client  
 gcc client.c -o client  
 
-##Run the client:
+
+### Run the server  
+./server  
+
+ 
+##Run the client:  
 ./client  
 
-🧪 Example Usage
-Scenario: Client uploads a file to the server
+🧪 Example Usage  
+### Scenario: Client uploads a file to the server  
 
-Server chooses Mode 1 (Listening)
+1.Server chooses Mode 1 (Listening)  
 
-Client chooses Mode 2 (File Transfer)
+2.Client chooses Mode 2 (File Transfer)  
 
-Client types:
+3. Client types:  
+Command: upload  
 
-Command: upload
+4.Server receives and saves it as received_from_client.txt  
 
-Server receives and saves it as received_from_client.txt
+📌 Notes  
+Sockets are created using socket(AF_INET, SOCK_STREAM, 0)  
 
-📌 Notes
-Sockets are created using socket(AF_INET, SOCK_STREAM, 0)
+All file transfers are done using fread, fwrite, send, and recv  
 
-All file transfers are done using fread, fwrite, send, and recv
+Delays (sleep(1)) are added to avoid race conditions on initial message sending  
 
-Delays (sleep(1)) are added to avoid race conditions on initial message sending
-
-bzero() clears buffers before/after transmission  
+bzero() clears buffers before/after transmission   
 
 
-👨‍💻 Author
-Mustafa Eren Demiray
+👨‍💻 Author  
+Mustafa Eren Demiray  
 
-Final Project – C Programming
-Client-Server Socket Programming
+Client-Server Socket Programming  

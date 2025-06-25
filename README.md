@@ -130,6 +130,6 @@ bzero() clears buffers before/after transmission
 
 ---
 ## 👨‍💻 Author  
-Mustafa Eren Demiray  
+Eren Demiray  
 
 Client-Server Socket Programming  

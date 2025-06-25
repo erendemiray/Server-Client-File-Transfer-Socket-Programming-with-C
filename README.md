@@ -95,9 +95,10 @@ gcc client.c -o client
 ./server  
 
  
-##Run the client:  
+### Run the client:  
 ./client  
 
+---
 🧪 Example Usage  
 ### Scenario: Client uploads a file to the server  
 
@@ -109,7 +110,7 @@ gcc client.c -o client
 Command: upload  
 
 4.Server receives and saves it as received_from_client.txt  
-
+---
 📌 Notes  
 Sockets are created using socket(AF_INET, SOCK_STREAM, 0)  
 
